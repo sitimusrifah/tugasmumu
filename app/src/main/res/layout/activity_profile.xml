@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragProfile"
+    android:background="@drawable/_20b45881ef5c417686362"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ProfileActivity">
+
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/gProfile"
+        android:layout_width="314dp"
+        android:layout_height="161dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="132dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/white"
+        app:shapeAppearanceOverlay="@style/roundImageView" />
+
+    <TextView
+        android:id="@+id/tvProfile"
+        android:layout_width="113dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/gProfile"
+        android:layout_alignTop="@+id/gProfile"
+        android:layout_alignEnd="@+id/gProfile"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="52dp"
+        android:text="Profile"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+
+    <TextView
+        android:id="@+id/tvNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvProfile"
+        android:layout_alignStart="@+id/gProfile"
+        android:layout_alignEnd="@+id/gProfile"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="2dp"
+        android:text="Siti Musrifah"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvUniv"
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvNama"
+        android:layout_alignStart="@+id/gProfile"
+        android:layout_alignEnd="@+id/gProfile"
+        android:layout_marginStart="-23dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="-22dp"
+        android:text="Universitas Alma Ata Yogyakarta"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
